@@ -6,7 +6,11 @@
 	<groupId>cn.jenny</groupId>
 	<artifactId>springbootdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>springbootdemo-web</module>
+        <module>springbootdemo-common</module>
+    </modules>
+	<packaging>pom</packaging>
 
 	<name>springbootdemo</name>
 	<description>Demo project for Spring Boot</description>
@@ -22,6 +26,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+        <project.version>0.0.1-SNAPSHOT</project.version>
 	</properties>
 
 	<dependencies>
